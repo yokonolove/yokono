@@ -1,0 +1,450 @@
+@charset "utf-8";
+body
+{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+body ul li
+{
+	list-style: none;
+}
+body a
+{
+	text-decoration: none;
+}
+header 
+{
+	line-height: 43px;
+	height: 44px;
+	text-align: center;
+}
+section,p
+{
+	margin: 0;
+	padding: 0;
+}
+.posir
+{
+	position: relative;
+}
+.top1
+{
+	display: block;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+}
+header .top1 img {
+    vertical-align: middle;
+    width: 12px;
+}
+header .title {
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+    display: inline-block;
+	margin: 0 0 0 10%;
+}
+.top2
+{
+display: inline-block;
+float: right;
+}
+/*mainnav*/
+.navmenu
+{
+	right: 0;
+    width: 100%;
+    height: 49px;
+    background: #666;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    border-bottom: none;
+    border-top: none;
+}
+.navmenu ul
+{
+	margin: 0;
+    padding: 0;
+}
+.navmenu ul li
+{
+	width: 25%;
+    float: left;
+    padding-left: 0;
+    height: 49px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navmenu  .item1
+{
+    background: url(../img/homec.png) center 9px no-repeat;
+    background-size: auto 18px;
+}
+.navmenu a
+{
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 28px;
+}
+.navmenu .item4
+{
+	background: url(../img/seoulc.png) center 9px no-repeat;
+    background-size: 28px auto;
+}
+.navmenu .item2
+{
+	background: url(../img/ico-shopcartc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.navmenu .item3
+{
+	background: url(../img/ico-personc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+
+.pbanner
+{
+	width: 62.5%;
+	margin: 0 auto;
+}
+.introduction
+{
+	padding: 0 5px 5px 5px;
+}
+.introduction h1
+{
+	box-sizing: border-box;
+	min-height: 36px;
+	padding-right:6px;
+	color: #666;
+	font-size: 14px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	width: 88%;
+	margin: 0;
+}
+.introductiondiv
+{
+    color: #ff0000;
+    font-size: 12px;
+    width: 100%;
+    border: none;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-height: 34px;
+    line-height: 16px;
+    padding-top: 4px;
+}
+.introduction ul li
+{
+	font-size: 2rem;
+    font-family: arial;
+    font-weight: bold;
+    color: #ff0000;
+    display: inline-block;
+	position: absolute;
+	left: 0;
+	display: inline-block;
+}
+.introduction ul del
+{
+	color: #a0a0a0;
+    font-size: 14px;
+    line-height: 34px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.introduction ul  span
+{
+	color: #a0a0a0;
+	font-size: 12px;
+	line-height: 34px;
+	float: right;
+	display: inline-block;
+}
+.intro1 span
+{
+	font-size: 14px;
+	color: #333;
+	text-align: left;
+}
+.intro1
+{
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	border: 1px solid #eee;
+	padding: 10px;
+}
+.intro1 img
+{
+	width: 8px;
+	height: 12px;
+	float: right;
+}
+.intro2
+{
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	margin-top: 10px;
+}
+.intro2dl
+{
+	padding: 0 12px;
+	margin: 0;
+    margin-bottom: 6px;
+}
+.intro2dl dt
+{
+	padding:5px;
+    width: 100%;
+    float: left;
+    border-bottom: 1px dashed #ddd;
+}
+.intro2dl dt p
+{
+	float: left;
+    line-height: 25px;
+    width: 60px;
+}
+.intro2star
+{
+	float: left;
+}
+.intro2star img
+{
+	width: 10px;
+}
+.intro2 dl time
+{
+	float: right;
+    line-height: 25px;
+}
+.intro2txt1
+{
+	color: #333;
+	margin-top: 10px;
+}
+.intro2txt2
+{
+	margin-top: 20px;
+}
+.intro3
+{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	padding: 12px 12px;
+    position: relative;
+}
+.intro3 a p
+{
+	line-height: 16px;
+    font-size: 12px;
+    color: #333;
+    margin-left: 74px;
+    overflow: hidden;
+    position: relative;
+}
+.intro3 img
+{
+	width: 61px;
+    position: absolute;
+    top: 12px;
+    left: 12px;
+}
+
+.intro4
+{
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 5px;
+	border: 1px solid #eee;
+	padding: 10px;
+}
+.shoplist
+{
+	width: 100%;
+	margin: 5px 0;
+}
+.shoplistul  li
+{
+	width: 32.3333%;
+	float: left;
+	margin-bottom:2px  3px;
+}
+.shoplistul  li img
+{
+	width: 100%;
+}
+.shoplistul  li p
+{
+	 text-overflow:ellipsis;
+	 overflow:hidden;
+	 white-space:nowrap;
+	 color:#666; 
+	 font-family: arial; 
+	 text-align:left; 
+	 margin:0 3px; 
+	 line-height: 24px;
+	 width: 100%;
+}
+.shoplistul  li span
+{
+	position:relative;
+	font-size:1.25rem; 
+	color:#de0302; 
+	margin-left: 5px;
+}
+.shopinfor
+{
+	height: 30px;
+    line-height: 32px;
+    font-size: 1.15rem;
+    position: relative;
+    text-align: left;
+    background: #eee url(../img/tibg.jpg) left center;
+    background-repeat: repeat-x;
+    margin-bottom: 7px;
+    color: #000;
+    padding: 0 12px;
+}
+.clearfix:after {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+    content: ".";
+}
+ .clearfix li {
+    margin: 0;
+    width: 45%;
+    padding-top: 2px;
+    font-size: 1rem;
+    margin-left: 10px;
+    float: left;
+}
+.size img
+{
+	width: 100%;
+}
+.review1
+{
+	width: 100%;
+	margin-bottom: 6px;
+}
+.review2
+{
+	padding: 18px;
+	float: left;
+}
+.review2 img
+{
+	vertical-align: top;
+	width: 18px;
+	height: 18px;
+}
+.score
+{
+	float: right;
+    padding: 17px 18px 0px 0px;
+    color: #333;
+    font-size: 15px;
+}
+.Evaimg img
+{
+	width: 100%;
+	float: left;
+}
+.intro2dl dd img
+{
+	width: 90px;
+	height: 90px;
+	margin-right: 10px;
+}
+.intro2dl dt time
+{
+	float: right;
+}
+.prodtl_buy {
+    position: fixed;
+    bottom: -3px;
+    left: 0;
+    width: 100%;
+    z-index: 101;
+    padding: 0;
+    max-width: 640px;
+    min-width: 320px;
+}
+.prodtl_buy a.collectN {
+    width: 15.625%;
+    float: left;
+    margin: 0;
+    height: 44px;
+    background: #fff;
+    border-top: 1px solid #eee;
+    border-right: 1px solid #eee;
+    text-align: center;
+}
+.add
+{
+	margin: 0;
+    background: #ffbc00;
+    width: 34.375%;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    line-height: 44px;
+    text-align: center;
+}
+.add1
+{
+	margin: 0;
+    background: #ff3300;
+    width: 34.375%;
+    padding: 0;
+    color: #fff;
+    font-size: 16px;
+    float: left;
+    line-height: 44px;
+    text-align: center;
+}
+em
+{
+	font-style: normal;
+	color: #666;
+}
+.imga
+{
+	width: 30px;
+	height: 30px;
+}
+.imgb
+{
+	float: right;	
+	width: 8px;
+	height: 12px;
+	margin-top: 5px;
+}
+.infora
+{
+	overflow:hidden; 
+	position:relative;
+	margin: 0;
+}
+.intro2a
+{
+	border-bottom: 1px solid #ddd;
+	color: #666;
+	margin-top: 10px;
+	border-top: 1px solid #ddd;
+}

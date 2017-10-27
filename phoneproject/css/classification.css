@@ -1,0 +1,235 @@
+@charset "utf-8";
+body
+{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #666;
+}
+body ul li
+{
+	list-style: none;
+}
+body a
+{
+	text-decoration: none;
+}
+html
+{
+	font-size: 62.5%;
+}
+header 
+{
+	line-height: 43px;
+	height: 44px;
+	text-align: center;
+	background: #f8f8f8;
+}
+section,p,li,ul
+{
+	margin: 0;
+	padding: 0;
+}
+a
+{
+	text-decoration: none;
+}
+.posir
+{
+	position: relative;
+}
+.top1
+{
+	display: block;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+}
+header .top1 img {
+    vertical-align: middle;
+    width: 12px;
+}
+header .title {
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 68%;
+    margin: 0 auto;
+    color: #333;
+}
+.top2
+{
+display: inline-block;
+}
+/*mainnav*/
+.navmenu
+{
+	right: 0;
+    width: 100%;
+    height: 49px;
+    background: #666;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    border-bottom: none;
+    border-top: none;
+}
+.navmenu ul
+{
+	margin: 0;
+    padding: 0;
+}
+.navmenu ul li
+{
+	width: 25%;
+    float: left;
+    padding-left: 0;
+    height: 49px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navmenu  .item1
+{
+    background: url(../img/homec.png) center 9px no-repeat;
+    background-size: auto 18px;
+}
+.navmenu a
+{
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 28px;
+}
+.navmenu .item4
+{
+	background: url(../img/seoulc.png) center 9px no-repeat;
+    background-size: 28px auto;
+}
+.navmenu .item2
+{
+	background: url(../img/ico-shopcartc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.navmenu .item3
+{
+	background: url(../img/ico-personc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.search 
+{
+	width: 60%;
+    position: relative;
+    display: inline-block;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+.searchleft
+{
+	display: block;
+    width: 100%;
+    position: relative;
+    height: 28px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0 30px 0 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.searchright
+{
+	display: block;
+    width: 36px;
+    height: 28px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: '';
+    background: url(../img/ygseach.png) center center no-repeat;
+    background-size: 16px auto;
+    border: 0;
+}
+
+.leftul ul li
+{
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	height: 40px;
+    line-height: 40px;
+    /*padding: 0 6px;*/
+    font-size: 13px;
+    text-align: center;
+    background-color: #fff;
+    position: relative;
+    overflow: hidden;
+    /*text-overflow: ellipsis;*/
+    white-space: nowrap;
+    box-sizing: border-box;
+    width: 100%;
+}
+.rightimg
+{
+	
+}
+.rightul
+{
+	padding: 0 15px;
+	background: #eee;
+}
+.rightimg  img
+{
+	width: 100%;
+}
+.rightul h1
+{
+	font-weight: 400;
+	text-align: center;
+}
+.trademark
+{
+	overflow: hidden;
+    background: #fff;
+}
+.clearfix:after {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+    content: ".";
+}
+.trademark ul li
+{
+	float: left;
+    width: 33.33333%;
+}
+.trademark ul li a
+{
+	display: block;
+    background-color: #fff;
+    margin: 0px 3px 5px;
+    text-align: center;
+    padding: 10px 5px;
+    color: #333;
+    position: relative;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.trademark  ul li a img {
+    width: 55px;
+    padding: 0 0 10px;
+    display: block;
+    margin: 0 auto;
+    min-height: 47px;
+}
+.block
+{
+	display:block
+}
+.none
+{
+	display:none
+}

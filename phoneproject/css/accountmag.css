@@ -1,0 +1,347 @@
+@charset "utf-8";
+body
+{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+body ul li
+{
+	list-style: none;
+}
+body a
+{
+	text-decoration: none;
+}
+header 
+{
+	line-height: 43px;
+	height: 44px;
+	text-align: center;
+	background: #f8f8f8;
+}
+section,p,input,ul
+{
+	margin: 0;
+	padding: 0;
+}
+.posir
+{
+	position: relative;
+}
+.top1
+{
+	display: block;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+header .top1 img {
+    vertical-align: middle;
+    width: 12px;
+}
+header .title {
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 68%;
+    margin: 0 auto;
+    color: #333;
+}
+.top2
+{
+	position: absolute;
+    right: 0;
+    border-left: 0 #ac6a46 solid;
+    top: 0
+}
+/*mainnav*/
+.navmenu
+{
+	right: 0;
+    width: 100%;
+    height: 49px;
+    background: #666;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    border-bottom: none;
+    border-top: none;
+}
+.navmenu ul
+{
+	margin: 0;
+    padding: 0;
+}
+.navmenu ul li
+{
+	width: 25%;
+    float: left;
+    padding-left: 0;
+    height: 49px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navmenu  .item1
+{
+    background: url(../img/homec.png) center 9px no-repeat;
+    background-size: auto 18px;
+}
+.navmenu a
+{
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 28px;
+}
+.navmenu .item4
+{
+	background: url(../img/seoulc.png) center 9px no-repeat;
+    background-size: 28px auto;
+}
+.navmenu .item2
+{
+	background: url(../img/ico-shopcartc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.navmenu .item3
+{
+	background: url(../img/ico-personc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+/*part2*/
+.myUserInfor {
+    background: #eee;
+}
+.myUserN {
+    background: #fff;
+    margin-bottom: 0;
+    -webkit-box-sizing: border-box;
+    overflow: hidden;
+    width: 100%;
+    height: 52px;
+    line-height: 52px;
+    border-bottom: 1px solid #ddd;
+}
+.fl
+{
+	float: left;
+}
+.fr
+{
+	float: right;
+}
+.myUserN p {
+    color: #333;
+    font-size: 15px;
+}
+.myUserN .nameUser
+{
+	color: #666;
+	font-size: 14px;
+	margin-right: 18px;
+}
+.listMore
+{
+	position: relative;
+    overflow: hidden;
+    padding: 0 18px
+}
+.listMore:after
+{
+	height: 52px;
+    right: 0;
+}
+/*.listMore:after
+{
+	content: '';
+    width: 9px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+    background: url(../img/gray-open.png) center center no-repeat;
+    background-size: 8px auto;
+}*/
+.nameDi
+{
+	color: #666;
+	position: relative;
+    font-size: 12px;
+}
+.nameDi input
+{
+	font-size: 10px;
+}
+
+#nameData {
+    width: 114px;
+    border: none;
+    color: #666;
+    position: absolute;
+    right: 0;
+    top: 17px;
+    background: #fff;
+}
+.zoneW
+{
+	border-bottom: none;
+	height: auto;
+}
+.diquW
+{
+	overflow: hidden;
+	padding: 0 18px;
+}
+.province
+{
+	width: 47%;
+    height: 32px;
+    line-height: 32px;
+    margin: 20px 3% 20px 0;
+    float: left;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.city
+{
+	width: 47%;
+    height: 32px;
+    line-height: 32px;
+    margin: 20px 0 20px 3%;
+    float: right;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+.myUserInfor ul
+{
+	overflow: hidden;
+    background: #fff;
+}
+.myUserInforAddress
+{
+	border-bottom: none;
+}
+.myUserInfor li a {
+    display: block;
+    font-size: 15px;
+    color: #333;
+    text-align: left;
+}
+.myUserInfor li {
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    padding: 0 18px;
+}
+.myUserP {
+    height: 8px;
+    background: #eee;
+    width: 100%;
+}
+.version
+{
+	color: #666;
+	padding-top: 5px;
+}
+footer
+{
+	text-align: center;
+	clear: both;
+    border-top: 1px solid #ddd;
+    padding: 8px 0 12px;
+    background: #f8f8f8;
+}
+.version p.footerInforName {
+    margin-bottom: 3px;
+}
+.footerInfor, .footerInfor a, .footerNav {
+    color: #a0a0a0;
+    text-align: center;
+}
+.footerAbs{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    max-width: 640px;
+}
+.loginbar {
+    padding: 0 15px;
+    background: 0 0;
+    text-align: right;
+    line-height: 2.5em;
+    position: relative;
+    color: #ac6a46;
+}
+.loginbar span {
+    left: 15px;
+    color: #a0a0a0;
+    position: absolute;
+}
+em {
+    font-style: normal;
+}
+.loginbar span a:nth-child(3) {
+    margin-left: 10px;
+}
+.loginbar span a {
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.loginbar a {
+    color: #666;
+    display: inline-block;
+    line-height: 22px;
+    padding: 1px 3px;
+    margin: 0 5px;
+}
+.loginbar span a:nth-child(1) {
+    margin-right: 10px;
+}
+.loginbar span a.userNameW {
+    border-radius: none;
+    border: 0;
+    padding: 1px 0;
+}
+.sexA
+{
+	width: 100%;
+	height: 50px;
+	background: #fff;
+	font-size: 15px;
+	color: #666;
+	padding-top: 10px;
+	padding-left: 30px;
+	margin-bottom:3px ;
+}
+.sexA span
+{
+	margin-left: 15px;
+}
+.cityA
+{
+	width: 100%;
+	height: 50px;
+	background: #F5F5F5;
+	font-size: 15px;
+	color: #666;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.cityB
+{
+	margin-left: 5px;
+	width: 45%;
+	display: inline-block;
+}
+.cityB select
+{
+	height: 30px;
+	width: 100%;
+}
+.nameU1
+{
+	margin-left: 18px;
+}

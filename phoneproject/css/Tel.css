@@ -1,0 +1,263 @@
+@charset "utf-8";
+body
+{
+	font-size: 12px;
+	font-family: "微软雅黑";
+}
+body ul li
+{
+	list-style: none;
+}
+body a
+{
+	text-decoration: none;
+}
+header 
+{
+	line-height: 43px;
+	height: 44px;
+	text-align: center;
+}
+/*section
+{
+	margin: 0;
+	padding: 0;
+}*/
+.posir
+{
+	position: relative;
+}
+.top1
+{
+	display: block;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+}
+header .top1 img {
+    vertical-align: middle;
+    width: 12px;
+}
+header .title {
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+    display: inline-block;
+	margin: 0 0 0 10%;
+}
+.top2
+{
+display: inline-block;
+float: right;
+}
+/*mainnav*/
+.navmenu
+{
+	right: 0;
+    width: 100%;
+    height: 49px;
+    background: #666;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    border-bottom: none;
+    border-top: none;
+}
+.navmenu ul
+{
+	margin: 0;
+    padding: 0;
+}
+.navmenu ul li
+{
+	width: 25%;
+    float: left;
+    padding-left: 0;
+    height: 49px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navmenu  .item1
+{
+    background: url(../img/homec.png) center 9px no-repeat;
+    background-size: auto 18px;
+}
+.navmenu a
+{
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 28px;
+}
+.navmenu .item4
+{
+	background: url(../img/seoulc.png) center 9px no-repeat;
+    background-size: 28px auto;
+}
+.navmenu .item2
+{
+	background: url(../img/ico-shopcartc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.navmenu .item3
+{
+	background: url(../img/ico-personc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.goodsTip {
+    padding: 7px 18px 0px;
+    border-bottom: 7px solid #eee;
+    position: relative;
+    float: left;
+}
+.goodsTipIcon {
+    display: block;
+    padding: 5px 0 0px 18px;
+    background: url(../img/prompt.png) no-repeat;
+    background-size: 11px auto;
+    background-position: 0 8px;
+}
+.password
+{
+	margin: 12px 18px 14px;
+}
+.pic_warp {
+    overflow: hidden;
+    margin-top: -5px;
+}
+.pic_l {
+    position: relative;
+    width: 100%;
+    padding: 0px;
+}
+.password label {
+    padding: 0 30px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid #eee;
+    box-shadow: 1px 1px 0 #f5f5f5;
+    margin-top: 12px;
+    position: relative;
+    border-radius: 3px;
+    background: #fff;
+    font-size: 1.2em;
+    margin: 10px 0 5px;
+}
+.pictureCode, #pictureCode {
+    margin: 0;
+    width: 60%;
+    padding-left: 12px;
+}
+.password .inptxt {
+    display: block;
+    height: 36px;
+    background: none;
+    font-size: 12px;
+    box-sizing: border-box;
+    line-height: 20px;
+    outline: medium;
+    border: 0;
+}
+.password .pic_iphone {
+    padding: 0 100px 0 0;
+    width: 100%;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 0 #f5f5f5;
+    position: relative;
+}
+.getIphoneCode {
+    width: 92px;
+    height: 38px;
+    line-height: 38px;
+    padding: 0;
+    position: absolute;
+    top: 14px;
+    right: 0px;
+    font-size: 12px;
+    margin: 0;
+    background: #ff3201;
+    border-radius: 3px;
+}
+.btn_org {
+    color: #fff;
+    font-size: 1.2em;
+    display: inline-block;
+    line-height: 30px;
+    text-align: center;
+    height: 32px;
+}
+.button_area
+{
+	background: #fe0000;
+	border-radius: 3px;
+	position: relative;
+    width: 100%;
+    padding: 0px;
+    text-align: center;
+    margin-top: 16px;
+}
+.button_area a
+{
+	color: #fff;
+}
+.pic_code {
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    border-left: 1px solid #ddd;
+    padding: 0 6px 0 10px;
+    height: 35px;
+}
+.pic_code img
+{
+	height: 30px;
+}
+.telNum {
+    height: 36px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    color: #666;
+    width: 100%;
+    background: #eee;
+    width: 100%;
+    font-size: 12px;
+    text-align: left;
+    line-height: 36px;
+    padding-left: 12px;
+    box-sizing: border-box;
+    margin: 0;
+}
+.changeway {
+    color: #333;
+    text-align: left;
+    font-size: 12px;
+    line-height: 27px;
+    margin: 0;
+}
+.changeway p {
+    width: 90px;
+    height: 27px;
+    border: 1px solid #ff0000;
+    color: #ff0000;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 6px;
+    display: inline-block;
+}
+.changeway a {
+    display: block;
+    width: 90px;
+    height: 27px;
+    border: 1px solid #a0a0a0;
+    color: #666;
+    line-height: 27px;
+    text-align: center;
+    border-radius: 5px;
+	display: inline-block;
+}

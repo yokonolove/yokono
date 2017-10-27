@@ -1,0 +1,288 @@
+@charset "utf-8";
+body
+{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #eee;
+}
+body ul li
+{
+	list-style: none;
+}
+body a
+{
+	text-decoration: none;
+}
+header 
+{
+	line-height: 43px;
+	height: 44px;
+	text-align: center;
+	background: #f8f8f8;
+}
+section,h1,p
+{
+	margin: 0;
+	padding: 0;
+}
+.posir
+{
+	position: relative;
+}
+.top1
+{
+	display: block;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+}
+header .top1 img {
+    vertical-align: middle;
+    width: 12px;
+}
+header .title {
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 68%;
+    margin: 0 0 0 10%;
+    color: #333;
+    display: inline-block;
+}
+.top2
+{
+	float: right;
+	display: inline-block;
+}
+/*mainnav*/
+.navmenu
+{
+	right: 0;
+    width: 100%;
+    height: 49px;
+    background: #666;
+    position: relative;
+    z-index: 100;
+    overflow: hidden;
+    border-bottom: none;
+    border-top: none;
+}
+.navmenu ul
+{
+	margin: 0;
+    padding: 0;
+}
+.navmenu ul li
+{
+	width: 25%;
+    float: left;
+    padding-left: 0;
+    height: 49px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+.navmenu  .item1
+{
+    background: url(../img/homec.png) center 9px no-repeat;
+    background-size: auto 18px;
+}
+.navmenu a
+{
+	display: block;
+    font-size: 14px;
+    color: #fff;
+    padding-top: 28px;
+}
+.navmenu .item4
+{
+	background: url(../img/seoulc.png) center 9px no-repeat;
+    background-size: 28px auto;
+}
+.navmenu .item2
+{
+	background: url(../img/ico-shopcartc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.navmenu .item3
+{
+	background: url(../img/ico-personc.png) center 9px no-repeat;
+	background-size: auto 18px;
+}
+.shoucang1
+{
+
+}
+.shoucang1 h1
+{
+	font-size: 12px;
+	color: #666;
+	text-align: left;
+	line-height: 30px;
+	margin-left: 10px;
+}
+.shoucang2
+{
+	width: 100%;
+	height: 125px;
+	background: #fff;
+}
+.shoucang2 .shoucleft
+{
+	float: left;
+	border: 1px solid #ddd;
+	margin-right: 10px;
+    position: relative;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.shoucang2 .shoucleft img {
+    vertical-align: top;
+    width: 95px;
+    height: 95px;
+}
+.shoucang2 .shoucleft h3 {
+    text-align: center;
+    background: #ff4c4c;
+    background-image: none;
+    top: 6px;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 2px;
+    right: -1px;
+    width: 56px;
+    position: absolute;
+    font-size: 14px;
+    color: #fff;
+    font-weight: 400;
+}
+.clearfix:after {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+    content: ".";
+}
+.shoucright
+{
+	padding-right:10px;
+	padding-top: 15px;
+	position: relative;
+	margin-left: 95px;
+}
+.rightp1
+{
+	color: #333;
+    font-size: 14px;
+    margin-bottom: 8px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	
+}
+.rightp2
+{
+	padding-bottom: 0;
+    line-height: 20px;
+    font-size: 16px;
+    color: #cccccc;
+}
+.rightp3
+{
+	overflow: hidden;
+    line-height: 24px;
+    padding-bottom: 0;
+    font-size: 16px;
+    color: red;
+    font-weight: 700;
+}
+.rightp4
+{
+	position: absolute;
+    right: 10px;
+    top: 50px;
+	padding-bottom: 0;
+    line-height: 20px;
+	text-align: center;
+    display: inline-block;
+    float: right;
+    font-size: 12px;
+    border: 1px solid #ff4c4c;
+    width: 58px;
+    height: 22px;
+}
+.rightp4 a
+{
+	color: #ff4c4c;
+}
+.rightp5
+{
+	padding-bottom: 0;
+    line-height: 20px;
+    overflow: hidden;
+    float: right;
+}
+footer
+{
+	margin-top: 50px;
+	text-align: center;
+	clear: both;
+    border-top: 1px solid #ddd;
+    padding: 8px 0 12px;
+    background: #f8f8f8;
+    font-size: 12px;
+    margin-bottom: 30px;
+}
+.version p.footerInforName {
+    margin-bottom: 3px;
+}
+.footerInfor, .footerInfor a, .footerNav {
+    color: #a0a0a0;
+    text-align: center;
+}
+.footerAbs{
+    width: 100%;
+}
+.loginbar {
+    padding: 0 15px;
+    background: 0 0;
+    text-align: right;
+    line-height: 2.5em;
+    position: relative;
+    color: #ac6a46;
+}
+.loginbar span {
+    left: 15px;
+    color: #a0a0a0;
+    position: absolute;
+}
+em {
+    font-style: normal;
+}
+.loginbar span a:nth-child(3) {
+    margin-left: 10px;
+}
+.loginbar span a {
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.loginbar a {
+    color: #666;
+    display: inline-block;
+    line-height: 22px;
+    padding: 1px 3px;
+    margin: 0 5px;
+}
+.loginbar span a:nth-child(1) {
+    margin-right: 10px;
+}
+.loginbar span a.userNameW {
+    border-radius: none;
+    border: 0;
+    padding: 1px 0;
+}

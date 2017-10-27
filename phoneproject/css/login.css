@@ -1,0 +1,161 @@
+@charset "utf-8";
+.top1
+{
+	display: block;
+    position: absolute;
+    left: 0;
+    color: #fff;
+}
+header .top1 img {
+    vertical-align: middle;
+    width: 12px;
+}
+header .title {
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 68%;
+    margin: 0 auto;
+    color: #333;
+}
+header 
+{
+	line-height: 43px;
+	height: 44px;
+	text-align: center;
+	background: #f8f8f8;
+}
+.tele
+{
+	height: 44px;
+	font-size: 14px;
+	width: 66.6666%;
+	border: 0;
+	padding-left: 15px;
+	outline: medium;
+	border-right: 1px solid #eee;
+}
+.check
+{
+	background-color: #fff;
+	width: 33.3333%;
+	height: 44px;
+	font-size: 14px;
+	position: absolute;
+	right: 0;
+	top: 0px;
+	border: 0;
+	outline: medium;
+}
+.input
+{
+	height: 44px;
+	font-size: 14px;
+	width: 100%;
+	border: 0;
+	padding: 15px;
+	outline: medium;
+}
+.speed
+{
+	text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #d9d9d9;
+}
+.login
+{
+	width: 100%;
+	margin-top: 30px;
+	height: 44px;
+	background: gray;
+	color: #fff;
+	border: 0;
+	font-weight: normal;
+}
+.presite
+{
+	font-size: 12px;
+    text-align: center;
+    color: #ff4664;
+    padding-top: 5px;
+}
+.presitea
+{
+	font-size: 14px;
+    text-align: right;
+    color: #ff4664;
+    padding-top: 5px;
+    padding-right: 15px;
+}
+.hd
+{
+	background: url(../img/point.png) left  center repeat-x;
+    margin: 0 30px;
+    margin-top: 90px;
+    text-align: center;
+    line-height: 2.2em;
+    font-size: 1.2em;
+}
+.hd span {
+    background: #fff;
+    display: inline-block;
+    padding: 0 6px;
+    font-size: 10px;
+    text-align: center;
+    color: #a0a0a0;
+}
+.share {
+    text-align: center;
+    padding: 10px 0;
+    margin-bottom: 90px;
+}
+.share a {
+    margin: 0 8%;
+    display: inline-block;
+    width: 38px;
+    height: 38px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 24px;
+}
+.share a img {
+    margin: 0;
+    vertical-align: middle;
+}
+.share-foot {
+    margin: 0 40px;
+    position: relative;
+    text-align: center;
+}
+.share-foot p {
+    width: 32.333333%;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.share-foot img {
+    margin-top: -2px;
+    vertical-align: middle;
+}
+.share-foot span {
+    padding-left: 2px;
+    font-size: 12px;
+}
+.passwordEyesHover {
+    background: url(../img/black.png) center center no-repeat;
+    background-size: 20px auto;
+    height: 45px;
+    width: 35px;
+    background-size: 20px auto;
+    position: absolute;
+    top: 67px;
+    right: 10px;
+}
+.log1
+{
+	border-bottom: 1px solid #d9d9d9;
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+}

@@ -1,0 +1,242 @@
+<!doctype html>
+<html class="no-js">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>账户管理</title>
+
+  <!-- Set render engine for 360 browser -->
+  <meta name="renderer" content="webkit">
+
+  <!-- No Baidu Siteapp-->
+  <meta http-equiv="Cache-Control" content="no-siteapp"/>
+
+  <link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+  <!-- Add to homescreen for Chrome on Android -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Add to homescreen for Safari on iOS -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Amaze UI"/>
+  <link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+  <!-- Tile icon for Win8 (144x144 + tile color) -->
+  <meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+  <meta name="msapplication-TileColor" content="#0e90d2">
+
+  <link rel="stylesheet" href="assets/css/amazeui.min.css">
+  <link rel="stylesheet" href="assets/css/app.css">
+  <link rel="stylesheet" type="text/css" href="css/accountmag.css"/>
+</head>
+<body>
+<!--part1-->
+<section class="" style="max-width: 640px;min-width: 320px;">
+	<header>
+	<div class="top1 am-padding-left-sm">
+		<a href="javascript:history.go(-1);"><img src="img/infor1.png" width="15"></a>
+	</div>
+	<h1 class="title">账户管理</h1>
+	<div class="top2 am-padding-right-sm">
+		<a href="#" id="mainnav"><img src="img/infor2.png" width="20"></a>
+	</div>
+	</header>
+	<!--mainnav-->
+	<div class="navmenu" id="ygnavmenu" style="display: none;">
+		<ul>
+			<li><a href="index.html" class="item1">首页</a></li>
+			<li><a href="Overseas purchase.html" class="item4">海外购</a></li>
+			<li><a href="shopping cart.html" class="item2">购物车</a></li>
+			<li><a href="Account management.html" class="item3">我的优购</a></li>
+		</ul>
+</div>
+<!--part2-->
+<section class="myUserInfor" style="width:100%;float:left;">
+		<div class="myUserN">
+			<p class="nameU1 fl">用户名</p>
+			<p class="nameUser fr">13105137938</p>
+		</div>
+		<div class="myUserN sexW" id="sex">
+			<div class="listMore">
+				<p class="nameU fl">性别</p>
+			<p class="nameDi fr">设置后不可修改</p>
+			</div>
+		</div>
+			<div class="sexA" style="display: none;position: relative;">
+					<lable><input type="radio" name="sex" id="" value=""  class="am-vertical-align-middle"/><span class="am-vertical-align-middle">男</span></lable>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<lable><input type="radio" name="sex" id="" value=""  class="am-vertical-align-middle"/><span class="am-vertical-align-middle">女</span></lable>
+			</div>
+		<div class="myUserN bornW">
+			<div class="listMore listMoreNone">
+				<p class="nameU fl">生日</p>
+			<p class="nameDi fr">
+				<input type="date" name="user_date" id="nameData">
+				</p><div id="output"></div>
+			<p></p>
+			</div>
+		</div>
+		<div class="myUserN  zoneW">
+			<div class="zone listMore"  id="city">
+				<p class="nameU fl">地区</p>
+				<div class="diquW">
+					<p class="nameDi fr" id="diQu">城市</p>
+					<p class="nameDi fr">省份,</p>
+				</div>
+			</div>
+			
+		<div class="cityA" style="display: none;">
+				<div class="cityB">
+										<select>
+					<option value="">省份</option>
+				<option>北京</option><option>上海</option><option>天津</option><option>重庆</option><option>河北省</option><option>山西省</option>
+				<option>河南省</option><option>辽宁省</option><option>吉林省</option><option>黑龙江省</option><option>内蒙古</option><option>江苏省</option>
+				<option>山东省</option><option>安徽省</option><option>浙江省</option><option>福建省</option><option>湖北省</option><option>湖南省</option>
+				<option>广东省</option><option>广西</option><option>江西省</option><option>四川省</option><option>海南省</option><option>贵州省</option>
+				<option>云南</option><option>西藏</option><option>陕西省</option><option>甘肃省</option><option>青海省</option><option>宁夏</option>
+				<option>新疆</option>
+				</select>
+				</div>
+
+				<div class="cityB">
+					<select>
+					<option >城市</option>
+					<option >城市</option>
+					<option >城市</option>
+					<option >城市</option>
+					<option >城市</option>
+					<option >城市</option>
+				</select>
+				</div>
+		</div>
+		<p class="myUserP"></p>
+		<ul class="myUserInfor myUserInforAddress">
+			<li><a href="address.html">收货地址管理</a></li>
+		</ul>
+		<p class="myUserP"></p>
+		<ul class="myUserInfor">
+			<li><a href="password.html">修改密码</a></li>		
+				<li><a href="Tel.html">修改绑定手机号</a></li>
+		</ul>
+	</section>
+	
+	<footer id="footerW" class="footerAbs">
+	<div class="loginbar">
+		<span>	
+				<a class="userNameW" href="Account management.html">13105137938</a>
+				<em>|</em>
+				<a href="javascript:history.go(-1);">退出</a>
+		</span>
+		<p>
+		<!-- <a class="footerScrollTop" href="javascript:scroll(0,0)">回顶部</a> -->
+	 		<a  href="">电脑版</a>
+			<a  href="">客户端</a>
+				<a href="">微信</a>
+		</p>
+	</div>
+	<!--<div class="ft_srch">
+		<form action="/search.sc" method="get">
+			<i></i>
+			<input type="hidden" name="entry" value="search"/>
+			<input type="text" class="inp" name="kword" required placeholder="请输入搜索关键词"/>
+			<input type="submit" class="submit" value="搜索" onClick="return footerSearch(this.form)"/>
+		</form>
+	</div>
+	 <section class="nav">
+		<a href="">首页</a>
+		<a href="/fenlei">分类</a>
+		<a href="/shoppingcart">购物车</a>
+		<a href="/my/myIndex.sc">我的优购</a>
+	</section> -->
+	<!-- <section class="version">
+		<p class="footerNav">
+			<a onclick="switchPCIndex()" href="javascript:;">电脑版</a>
+			|
+			<a onclick="switchAppDownload()" href="/agent">客户端</a>
+			|
+				<a href="/wx">微信</a>
+			|
+			<a href="/help/index.sc">帮助</a>
+			|
+			<a href="/gotoFeedback.sc">反馈</a>
+		</p> -->
+		<!-- <p>
+			<a href="javascript:void(0)">触屏版</a>
+			<a href="http://www.yougou.com">电脑版</a>
+			<a onclick="switchAppDownload()" href="/agent">客户端下载</a>
+		</p>
+	</section> -->
+	<section class="version">
+		<p class="footerInfor footerInforName">百丽国际旗下购物网站</p>
+		<p class="footerInfor">Copyright © 2011-2017 优购 m.yougou.com</p>
+	</section>
+	<!-- <p class="footerInfor">客服热线：<a href="tel:400-163-8888">400-163-8888</a></p> -->
+	<!--预约失败提示弹窗 start-->
+	<!-- <div id="microMessengerTipspop" class="none">
+		<section class="tipspop" >
+			<div class="tips">
+				<p><b>请点击右上角菜单，选择“在浏览器中打开”</b></p>
+			</div>
+			<div class="pop_btn" onclick="window.location.href = '';"><p>确认</p></div>
+		</section>
+	</div> -->
+	<!--预约失败提示弹窗 end-->
+</footer>
+</section>
+<!--[if (gte IE 9)|!(IE)]><!-->
+<script src="js/jquery-3.2.1.min.js"></script>
+<!--<![endif]-->
+<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+<script src="assets/js/amazeui.min.js"></script>
+</body>
+<script type="text/javascript">
+	$(document).ready(function () {
+		var flag=0
+		$("#mainnav").click(function () {
+			if (flag==0) {
+				$("#ygnavmenu").css("display","block")
+				flag=1
+			}
+			else
+			{
+				$("#ygnavmenu").css("display","none")
+				flag=0				
+			}
+		})
+		var flag1=0
+		$("#sex").click(function () {
+			if (flag1==0) {
+				$(".sexA").css("display","block")
+				flag1=1
+			}
+			else
+			{
+				$(".sexA").css("display","none")
+				flag1=0				
+			}
+		})
+		
+				var flag2=0
+		$("#city").click(function () {
+			if (flag2==0) {
+				$(".cityA").css("display","block")
+				flag2=1
+			}
+			else
+			{
+				$(".cityA").css("display","none")
+				flag2=0				
+			}
+		})
+	})
+</script>
+</html>

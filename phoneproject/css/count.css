@@ -1,0 +1,388 @@
+@charset "utf-8";
+body
+{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	background: #eee;
+}
+body ul li
+{
+	list-style: none;
+}
+body a
+{
+	text-decoration: none;
+}
+header 
+{
+	line-height: 43px;
+	height: 44px;
+	text-align: center;
+	background: #f8f8f8;
+}
+section,p,ul,li,input
+{
+	margin: 0;
+	padding: 0;
+}
+.posir
+{
+	position: relative;
+}
+.top1
+{
+	display: block;
+    position: absolute;
+    left: 0;
+    color: #fff;
+    display: inline-block;
+}
+header .top1 img {
+    vertical-align: middle;
+    width: 12px;
+}
+header .title {
+    font-weight: 400;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    color: #333;
+    display: inline-block;
+	margin: 0 auto;
+}
+/*开始*/
+.settlementItem {
+    padding: 6px 12px 0px;
+    background: #fff;
+    margin-bottom: 5px;
+}
+.settlementItem1 {
+    padding: 6px 12px 10px;
+    background: #fff;
+    margin-bottom: 5px;
+}
+.settlementItemAddress {
+    margin-top: 5px;
+}
+.settlementTitle {
+    position: relative;
+    line-height: 30px;
+    padding-left: 22px;
+	font-size: 15px;
+    color: #333333;
+}
+.settlementTitle:before {
+    content: '';
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-image: url(../img/adress.png);
+    background-position: center left;
+    background-size: 13px auto;
+    background-repeat: no-repeat;
+}
+.settlementTConBorderTop {
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+.settlementAddressA {
+    display: block;
+    padding-right: 30px;
+}
+.settlementAddressA:after {
+    display: block;
+    content: '';
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    background: url(../img/open.png) center center no-repeat;
+    background-size: 10px auto;
+}
+.clearfix:after {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+    display: block;
+    visibility: hidden;
+    content: ".";
+}
+.receiptUlF {
+    padding-top: 5px;
+}
+.receiptUlF li:nth-child(1) {
+    max-width: 66%;
+    position: relative;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin-right: 2%;
+}
+.receiptUlF li {
+    float: left;
+}
+.receiptUl li {
+    line-height: 25px;
+    height: 25px;
+    position: relative;
+    font-size: 13px;
+    color: #666;
+    margin-bottom: 10px;
+}
+.receiptUl li:after {
+    content: '';
+    height: 28px;
+    width: 30px;
+    /*background-color: #fff;*/
+    position: absolute;
+    top: 1px;
+    left: 5px;
+    z-index: 100;
+    display: none;
+}
+.receiptUlF li:nth-child(2) {
+    width: 32%;
+}
+.receiptAddress {
+    display: block;
+    line-height: 20px;
+    max-height: 40px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 8px;
+    color: #666;
+}
+.settlementTime:before {
+    background-image: url(../img/date.png);
+    background-position: center left;
+    background-size: 14px auto;
+    background-repeat: no-repeat;
+}
+.settlementTitle:before {
+    content: '';
+    height: 30px;
+    width: 20px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.receiptUl li.receiptChoice {
+    color: #ff0000;
+    border: 1px solid #ff0000;
+    margin-top: -1px;
+}
+.receiptUlB li {
+    padding: 4px 5px;
+    /* border-bottom: 1px solid #ddd; */
+}
+.receiptUl li {
+    line-height: 25px;
+    height: 25px;
+    position: relative;
+    font-size: 13px;
+    color: #666;
+}
+.receiptUlB li {
+    position: relative;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    height: 35px;
+}
+.receiptUl li .receipRadio {
+    position: absolute;
+    top: 3px;
+    left: 5px;
+    display: none;
+}
+.receiptUlB li:last-child {
+    border-bottom: 1px solid #ddd;
+}
+.settlementGift:before {
+    background-image: url(../img/discount.png);
+    background-position: center left;
+    background-size: 14px auto;
+    background-repeat: no-repeat;
+}
+.settlementTConBorderTop {
+    border-top: 1px solid #ddd;
+    position: relative;
+}
+.giftUl li {
+    border-bottom: 1px solid #ddd;
+    font-size: 13px;
+    color: #666;
+}
+.giftUl li a {
+    color: #666;
+    display: block;
+    font-size: 14px;
+    padding: 0 12px 0 0;
+    height: 45px;
+    line-height: 45px;
+    border-top: none;
+    background: #fff;
+    position: relative;
+}
+.settlementInvoice:before {
+    background-image: url(../img/invoice.png);
+    background-position: center left;
+    background-size: 14px auto;
+    background-repeat: no-repeat;
+}
+.settlementPro:before {
+    background-image: url(../img/information.png);
+    background-position: center left;
+    background-size: 12px auto;
+    background-repeat: no-repeat;
+}
+.settlementProW {
+    min-height: 80px;
+    padding: 12px 10px 12px 95px;
+    position: relative;
+}
+.settlementProImg {
+    position: absolute;
+    left: 5px;
+    top: 12px;
+    background-color: #f1f1f1;
+    border: 1px solid #eff0f2;
+    overflow: hidden;
+    width: 80px;
+    height: 80px;
+    color:#333333;
+}
+.settlementProImg img
+{
+    width: 80px;
+    height: 80px;	
+}
+.activeTextTip {
+    width: 68px;
+    font-size: 9px;
+    text-align: center;
+    font-weight: 700;
+    background: #ff4c4c;
+    color: #fff;
+    position: absolute;
+    top: 9px;
+    right: -19px;
+    -webkit-transform: rotate(45deg);
+}
+.settlementProDe li {
+    margin-bottom: 3px;
+    position: relative;
+    overflow: hidden;
+    font-size: 13px;
+    color: #666;
+}
+.settlementProDe li:first-child a {
+    display: block;
+    max-height: 36px;
+}
+.settlementProDe li:nth-child(2) {
+    color: #a0a0a0;
+}
+.settlementProDe li:nth-child(2) i {
+    margin-right: 20px;
+}
+.settlementItem i {
+    font-style: normal;
+}
+em {
+    font-style: normal;
+}
+.settlementProDe li:last-child {
+    text-align: right;
+}
+.settlementProDe li:last-child span {
+    float: left;
+    left: 6px;
+    font-size: 14px;
+    color: #333;
+}
+.price {
+    font-weight: 700;
+}
+.settlementDetailed:before {
+    background-image: url(../img/settlement.png);
+    background-position: center left;
+    background-size: 14px auto;
+    background-repeat: no-repeat;
+}
+.settlementDetailedU {
+    padding: 5px;
+}
+.settlementDetailedU li {
+    text-align: left;
+    height: 20px;
+    line-height: 20px;
+    font-size: 13px;
+    color: #666;
+}
+.settlementDetailedU li span {
+    float: right;
+}
+.settlementDetailedU li span i {
+    color: #ff0000;
+    margin-right: 10px;
+}
+.shopCartPayWa {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    max-width: 640px;
+    z-index: 100;
+    background: #ddd;
+    height: 45px;
+}
+.shopCartPayCon {
+    padding: 0 30% 0 0;
+}
+.shopCartInfo {
+    font-size: 14px;
+    color: #666;
+    line-height: 45px;
+    padding-left: 16px;
+}
+.shopCartNumb {
+    font-size: 15px;
+    white-space: nowrap;
+}
+.shopCartNumbEm {
+    color: #ff0000;
+}
+.shopCartNumb i {
+    font-style: normal;
+}
+.shopCartSubmit[type="submit"] {
+    display: block;
+    font-size: 14px;
+    width: 30%;
+    border: 0 none;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    background: #ff3300;
+    vertical-align: top;
+    color: #fff;
+    outline: 0;
+    border-radius: 0;
+    -webkit-appearance: none;
+}
+.settlementIntegral {
+    text-align: left;
+    padding: 4px 16px;
+    color: #a0a0a0;
+    margin-bottom: 48px;
+}
+.settlementIntegral span {
+    float: right;
+}

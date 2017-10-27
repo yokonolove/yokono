@@ -1,0 +1,167 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>收货地址</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+		<link rel="stylesheet" type="text/css" href="css/address.css" />
+	</head>
+
+	<body>
+		<section class="" style="max-width:640px;min-width: 320px;">
+			<header>
+				<div class="top1 am-padding-left-sm">
+					<a href="javascript:history.go(-1);"><img src="img/infor1.png" width="15"></a>
+				</div>
+				<h1 class="title">添加收货地址</h1>
+				<div class="top2 am-padding-right-sm">
+					<a href="#" id="mainnav"><img src="img/infor2.png" width="20"></a>
+				</div>
+			</header>
+			<!--mainnav-->
+			<div class="navmenu" id="ygnavmenu" style="display: none;">
+				<ul>
+					<li>
+						<a href="index.html" class="item1">首页</a>
+					</li>
+					<li>
+						<a href="Overseas purchase.html" class="item4">海外购</a>
+					</li>
+					<li>
+						<a href="shopping cart.html" class="item2">购物车</a>
+					</li>
+					<li>
+						<a href="Account management.html" class="item3">我的优购</a>
+					</li>
+				</ul>
+			</div>
+
+			<!--开始-->
+			<div class="address">
+				<form action="" method="post">
+					<label class="inputLabel"><span>收货人</span><input type="text" name="" id="" value="" class="add4"/></label>
+					<label class="inputLabel"><span>联系电话</span><input type="text" name="" id="" value="" class="add4"/></label>
+					<div class="add3">
+						<div class="addressAreaLabelF">		
+							<label>
+						<select>
+							<option value="">省份</option>
+							<option>北京</option>
+							<option>上海</option>
+							<option>天津</option>
+							<option>重庆</option>
+							<option>河北省</option>
+							<option>山西省</option>
+							<option>河南省</option>
+							<option>辽宁省</option>
+							<option>吉林省</option>
+							<option>黑龙江省</option>
+							<option>内蒙古</option>
+							<option>江苏省</option>
+							<option>山东省</option>
+							<option>安徽省</option>
+							<option>浙江省</option>
+							<option>福建省</option>
+							<option>湖北省</option>
+							<option>湖南省</option>
+							<option>广东省</option>
+							<option>广西</option>
+							<option>江西省</option>
+							<option>四川省</option>
+							<option>海南省</option>
+							<option>贵州省</option>
+							<option>云南</option>
+							<option>西藏</option>
+							<option>陕西省</option>
+							<option>甘肃省</option>
+							<option>青海省</option>
+							<option>宁夏</option>
+							<option>新疆</option>
+						</select>
+						</label>
+					</div>
+
+					<div class="addressAreaLabelF">
+					<label>
+						<select>
+							<option>城市</option>
+							<option>青岛</option>
+							<option>济南</option>
+							<option>上海</option>
+							<option>重庆</option>
+							<option>武汉</option>
+						</select>
+					</label>
+					</div>
+				</div>
+					<label class="selectLabel ">
+						<select>
+							<option>区县</option>
+							<option>崂山</option>
+							<option>市北</option>
+							<option>市南</option>
+							<option>黄岛</option>
+						</select>
+					</label>
+					<label class="inputLabel"><span>详细地址</span><input type="text" name="" id="" value=""  class="add4"/></label>
+					<div class="add3">
+						<input type="submit" value="保存地址" class="submit" />
+					</div>
+				</form>
+			</div>
+		</section>
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var flag = 0
+			$("#mainnav").click(function() {
+				if(flag == 0) {
+					$("#ygnavmenu").css("display", "block")
+					flag = 1
+				} else {
+					$("#ygnavmenu").css("display", "none")
+					flag = 0
+				}
+			})
+		})
+	</script>
+
+</html>

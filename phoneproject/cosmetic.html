@@ -1,0 +1,409 @@
+<!doctype html>
+<html class="no-js">
+
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="">
+		<meta name="keywords" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>化妆品</title>
+
+		<!-- Set render engine for 360 browser -->
+		<meta name="renderer" content="webkit">
+
+		<!-- No Baidu Siteapp-->
+		<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+		<link rel="icon" type="image/png" href="assets/i/favicon.png">
+
+		<!-- Add to homescreen for Chrome on Android -->
+		<meta name="mobile-web-app-capable" content="yes">
+		<link rel="icon" sizes="192x192" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Add to homescreen for Safari on iOS -->
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="apple-mobile-web-app-title" content="Amaze UI" />
+		<link rel="apple-touch-icon-precomposed" href="assets/i/app-icon72x72@2x.png">
+
+		<!-- Tile icon for Win8 (144x144 + tile color) -->
+		<meta name="msapplication-TileImage" content="assets/i/app-icon72x72@2x.png">
+		<meta name="msapplication-TileColor" content="#0e90d2">
+
+		<link rel="stylesheet" href="assets/css/amazeui.min.css">
+		<link rel="stylesheet" href="assets/css/app.css">
+		<link rel="stylesheet" type="text/css" href="css/cosmetic.css" />
+	</head>
+
+	<body>
+		<!--part1-->
+		<section style="max-width: 640px;min-width: 320px;">
+			<header>
+				<div class="top1 am-padding-left-sm">
+					<a href="javascript:history.go(-1);"><img src="img/infor1.png" width="15"></a>
+				</div>
+				<div class="search am-vertical-align-middle">
+					<input type="text" name="" id="" value="" placeholder="请输入关键字" class="searchleft" />
+					<input type="button" name="" id="" value="" class="searchright" />
+				</div>
+				<div class="top2 am-padding-right-sm">
+					<a href="#" id="mainnav"><img src="img/infor2.png" width="20"></a>
+				</div>
+			</header>
+			<!--mainnav-->
+			<div class="navmenu" id="ygnavmenu" style="display: none;">
+				<ul>
+					<li>
+						<a href="index.html" class="item1">首页</a>
+					</li>
+					<li>
+						<a href="Overseas purchase.html" class="item4">海外购</a>
+					</li>
+					<li>
+						<a href="shopping cart.html" class="item2">购物车</a>
+					</li>
+					<li>
+						<a href="mine.html" class="item3">我的优购</a>
+					</li>
+				</ul>
+			</div>
+			<!--part2-->
+			<section class="srch_order">
+				<div class="aList">
+					<a href="nike.html" class="zongHN fst"> 综合</a>
+				</div>
+				<div class="aList">
+					<a href="javascript:void(0);">
+						销量
+
+					</a>
+				</div>
+				<div class="aList">
+					<a href="javascript:void(0);">
+						价格
+						<span>	
+						<img src="img/gray.png" width="8" alt="">
+					</span>
+					</a>
+				</div>
+				<div class="aList">
+					<a href="javascript:void(0);">
+						新品
+					</a>
+				</div>
+				<!-- <div class="aList">
+				<a href="javascript:void(0);"    onclick="discountOrderBy()" >				
+				折扣
+					<span class="arrow">
+															
+						<input id="hiddenDiscountOrderBy" type="hidden" name="discountOrderBy" value="zhekou"/>
+					</span>				
+				</a>
+			</div> -->
+				<div class="aList">
+					<a href="javascript:void(0);" id="cd-menu-trigger" data-am-offcanvas="{target: '#doc-oc-demo3'}">
+						筛选
+						<span class="arrow">
+						<img class="shaiNA" src="img/select.png" width="10" alt="">
+					</span>
+					</a>
+				</div>
+			</section>
+			<nav id="doc-oc-demo3" style="width:80%;" class="am-offcanvas fr">
+				<div class="nav-head">
+					<div class="nav-head">
+			<span class="arrow goBack"></span>
+						<p>筛选</p>
+					</div>
+				</div>
+				<div class="nav-content" style="height: 568px;">
+
+					<div class="left-list">
+						<div class="cd-nav-key">
+							<div class="liWarp no-focus-key" filedname="分类" title="catg_level_no_2L">
+								<div class="topW">
+									<span class="listO">分类</span>
+									<span class="searchN manyCh"></span>
+									<span class="jianT jianTN "></span>
+								</div>
+								<div class="right-list danX toogle showHideN">
+									<ul class="cd-nav-value focus-list catg_level_no_2L">
+										<!-- <li  class="no-focus-value" style="margin:10px 6px;" title="all"><span>全部</span></li> -->
+										<li title="YGT" class="no-focus-value">
+											<p>护肤</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="liWarp liWarpO liWarpP no-focus-key" filedname="品牌" title="seo_en_brand_name">
+								<span class="listO">品牌</span>
+								<span class="manyCh"></span>
+								<div class="right-list pinP many ">
+									<ul class="cd-nav-value no-focus-list seo_en_brand_name">
+										<li title="mediheal" class="no-focus-value">
+											<p>美迪惠尔</p>
+										</li>
+										<li title="snp" class="no-focus-value">
+											<p>SNP</p>
+										</li>
+										<li title="drg" class="no-focus-value">
+											<p>DR.G</p>
+										</li>
+										<li title="coreana" class="no-focus-value">
+											<p>高丽雅娜</p>
+										</li>
+										<li title="forencos" class="no-focus-value">
+											<p>宋仲基</p>
+										</li>
+										<li title="jayjun" class="no-focus-value">
+											<p>JAYJUN</p>
+										</li>
+										<li title="ruekwave" class="no-focus-value">
+											<p>金宇彬</p>
+										</li>
+										<li title="oozoo" class="no-focus-value">
+											<p>宇宙</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="liWarp liWarpO no-focus-key" filedname="价格" title="price_group">
+								<div class="topWM">
+									<span class="listO">价格</span>
+									<span class="manyCh"></span>
+									<span class="jianT jianTM"></span>
+								</div>
+								<div class="right-list toogle showHide many">
+									<ul class="cd-nav-value no-focus-list price_group">
+										<li title="001" class="no-focus-value">
+											<p>51-100元</p>
+										</li>
+										<li title="002" class="no-focus-value">
+											<p>101-200元</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="liWarp liWarpO no-focus-key" filedname="尺码" title="size_list">
+								<div class="topWM">
+									<span class="listO">尺码</span>
+									<span class="manyCh"></span>
+									<span class="jianT jianTM"></span>
+								</div>
+								<div class="right-list toogle showHide many">
+									<ul class="cd-nav-value no-focus-list size_list">
+										<li title="0VO" class="no-focus-value">
+											<p>10P</p>
+										</li>
+										<li title="0VW" class="no-focus-value">
+											<p>5片</p>
+										</li>
+										<li title="0WU" class="no-focus-value">
+											<p>5P</p>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="nav-bottm">
+					<em class="clearBtn">清空</em>
+					<em id="subBtnId" class="nav-subBtn" href="javascript:;">确定</em>
+				</div>
+			</nav>
+			
+<!--正式开始-->
+	<div class="srch_result_list">
+		<ul class="clearfix">
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic1.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：美迪惠尔（原可莱丝） Line friend N.M.F 水润保湿面膜10P 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic2.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：DR.G 太阳的后裔女二同款 Dr.G胶原修复药妆面膜 25ML*10片/盒 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic3.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：高丽雅娜 RODIN SSO 肉毒杆菌精华深层补水美白保湿面膜 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic4.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：高丽雅娜 RODIN SHO 涂抹式肉毒杆菌精华面膜2部曲 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic5.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：Forencos宋仲基七天 黑珍珠 亮白集中护理丝绸面膜 10P 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic6.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：Forencos宋仲基七天 火山灰 毛孔集中护理丝绸面膜 10P 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic7.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：DR.G 蜗牛原液针剂精华面膜25ML*10片/盒 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic8.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：SNP 京剧脸谱美白面膜 10P 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic9.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：SNP 京剧脸谱水库面膜 10P 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+			<li>
+					<section class="listW"> 
+						<a href="product details.html">
+							<img src="img/cosmetic10.jpg"/>
+								<span class="topics_pnameN">
+									首尔站：SNP 京剧脸谱水库面膜 10P 韩国 首尔站
+								</span>
+						</a>
+						<p>		
+								<span class="price">
+								￥114
+								</span>
+            <del class="">￥250</del>
+						</p>
+					</section>
+			</li>
+		</ul>
+	</div>
+<!--正式结束-->
+		</section>
+		<!--[if (gte IE 9)|!(IE)]><!-->
+		<script src="js/jquery-3.2.1.min.js"></script>
+		<!--<![endif]-->
+		<!--[if lte IE 8 ]>
+<script src="http://libs.baidu.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://cdn.staticfile.org/modernizr/2.8.3/modernizr.js"></script>
+<script src="assets/js/amazeui.ie8polyfill.min.js"></script>
+<![endif]-->
+		<script src="assets/js/amazeui.min.js"></script>
+	</body>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			var flag = 0
+			$("#mainnav").click(function() {
+				if(flag == 0) {
+					$("#ygnavmenu").css("display", "block")
+					flag = 1
+				} else {
+					$("#ygnavmenu").css("display", "none")
+					flag = 0
+				}
+			})
+		})
+	</script>
+
+</html>
